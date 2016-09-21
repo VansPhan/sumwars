@@ -1,0 +1,9 @@
+<div class="container flex">
+	<div ng-repeat="mon in mons">
+		<div class="container monster">
+			<img class="element" ng-src="assets/images/elements/{{ mon.attribute }}.png">
+			<h1>{{ mon.name }}</h1>
+			<p>LVL: {{ mon.level }}</p>
+		</div>
+	</div>
+</div>

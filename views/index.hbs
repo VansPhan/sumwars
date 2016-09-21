@@ -8,16 +8,16 @@
 	<script src="assets/app.js" type="text/javascript"></script>
 	<script src="assets/js/factory.js" type="text/javascript"></script>
 	<script src="assets/js/monster.controller.js" type="text/javascript"></script>
+	<script src="assets/js/directive.js" type="text/javascript"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
 <body ng-app="sumwars">
 	<div ng-controller="MonsterController">
 		<button ng-click="getMons()">Monsters</button>
-		<div ng-repeat="mon in mons">
-			<h1>{{ mon.name }}</h1>
-		</div>
+		<monsters></monsters>
 	</div>
 </body>
 </html>
