@@ -12,7 +12,6 @@
 			MonsterFactory.monsters()
 			.success(function(data) {
 				$scope.mons = data.mons;
-				console.log($scope.mons)
 			})
 			.error(function(err) {
 				console.log(err)

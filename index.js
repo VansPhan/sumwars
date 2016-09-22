@@ -5,7 +5,9 @@ var mongoose = require("./db/connection");
 
 var app = express();
 
+var AllMonster = mongoose.model("AllMonster");
 var Monster = mongoose.model("Monster");
+var Rune = mongoose.model("Rune");
 
 app.set("port", process.env.PORT || 1337);
 app.set("view engine", "hbs");
@@ -23,9 +25,21 @@ app.get("/", function(req, res) {
 	res.render("index");
 });
 
+app.get("/api/allmons", function(req, res){
+  AllMonster.find({}).then(function(mons){
+    res.json({ mons });
+  });
+});
+
 app.get("/api/mons", function(req, res){
   Monster.find({}).then(function(mons){
     res.json({ mons });
+  });
+});
+
+app.get("/api/runes", function(req, res){
+  Rune.find({}).then(function(runes){
+    res.json({ runes });
   });
 });
 
