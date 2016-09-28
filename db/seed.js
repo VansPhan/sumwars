@@ -247,45 +247,108 @@ Monster.remove({}).then(function() {
 			case "Ghost":
 				mon.img = ("ghost_" + mon.attribute.toLowerCase() + ".png");
 			break;
-			case "Main":
-				mon.img = ("main_" + mon.attribute.toLowerCase() + ".png");
+			case "Golem":
+				mon.img = ("golem_" + mon.attribute.toLowerCase() + ".png");
+			break;
+			case "Maggi":
+			case "Groggo":
+			case "Ragion":
+			case "Kuhn":
+			case "Kugo":
+				mon.img = ("golem_" + mon.attribute.toLowerCase() + "_awakened.png");
+			break;
+			case "Griffon":
+				mon.img = ("griffon_" + mon.attribute.toLowerCase() + ".png");
+			break;
+			case "Varus":
+			case "Shamann":
+			case "Bernard":
+			case "Kahn":
+			case "Spectra":
+				mon.img = ("griffon_" + mon.attribute.toLowerCase() + "_awakened.png");
+			break;
+			case "Grim Reaper":
+				mon.img = ("grim_reaper_" + mon.attribute.toLowerCase() + ".png");
+			break;
+			case "Thrain":
+			case "Prom":
+			case "Hiva":
+			case "Hemos":
+			case "Sath":
+				mon.img = ("grim_reaper_" + mon.attribute.toLowerCase() + "_awakened.png");
+			break;
+			case "Harpu":
+				mon.img = ("harpu_" + mon.attribute.toLowerCase() + ".png");
+			break;
+			case "Seren":
+			case "Sia":
+			case "Seal":
+			case "Sisroo":
+			case "Sisroo":
+				mon.img = ("harpu_" + mon.attribute.toLowerCase() + "_awakened.png");
+			break;
+			case "Harpy":
+				mon.img = ("harpy_" + mon.attribute.toLowerCase() + ".png");
+			break;
+			case "Hellea":
+			case "Kabilla":
+			case "Prilea":
+			case "Ramira":
+			case "Lucasha":
+				mon.img = ("harpy_" + mon.attribute.toLowerCase() + "_awakened.png");
+			break;
+			case "Hell Lady":
+				mon.img = ("hell_lady_" + mon.attribute.toLowerCase() + ".png");
+			break;
+			case "Craka":
+			case "Asima":
+			case "Ethna":
+			case "Beth":
+			case "Raki":
+				mon.img = ("hell_lady_" + mon.attribute.toLowerCase() + "_awakened.png");
+			break;
+			case "Hellhound":
+				mon.img = ("hellhound_" + mon.attribute.toLowerCase() + ".png");
+			break;
+			case "Shumar":
+			case "Shamar":
+			case "Gamir":
+			case "Tarq":
+			case "Sieq":
+				mon.img = ("hellhound_" + mon.attribute.toLowerCase() + "_awakened.png");
+			break;
+			case "High Elemental":
+				mon.img = ("high_elemental_" + mon.attribute.toLowerCase() + ".png");
+			break;
+			case "Jumaline":
+			case "Shren":
+			case "Moria":
+			case "Ellena":
+			case "Kahli":
+				mon.img = ("high_elemental_" + mon.attribute.toLowerCase() + "_awakened.png");
+			break;
+			case "Horned Frog":
+				mon.img = ("horned_frog_" + mon.attribute.toLowerCase() + ".png");
+			break;
+			case "Howl":
+				mon.img = ("howl_" + mon.attribute.toLowerCase() + ".png");
+			break;
+			case "Chacha":
+			case "Shushu":
+			case "Chichi":
+			case "Lulu":
+			case "Lala":
+				mon.img = ("howl_" + mon.attribute.toLowerCase() + "_awakened.png");
+			break;
+			case "Ifrit":
+				mon.img = ("ifrit_" + mon.attribute.toLowerCase() + ".png");
 			break;
 			case "dark":
 			case "light":
 			case "wind":
 			case "water":
 			case "fire":
-				mon.img = ("main_" + mon.attribute.toLowerCase() + "_awakened.png");
-			break;
-			case "Main":
-				mon.img = ("main_" + mon.attribute.toLowerCase() + ".png");
-			break;
-			case "dark":
-			case "light":
-			case "wind":
-			case "water":
-			case "fire":
-				mon.img = ("main_" + mon.attribute.toLowerCase() + "_awakened.png");
-			break;
-			case "Main":
-				mon.img = ("main_" + mon.attribute.toLowerCase() + ".png");
-			break;
-			case "dark":
-			case "light":
-			case "wind":
-			case "water":
-			case "fire":
-				mon.img = ("main_" + mon.attribute.toLowerCase() + "_awakened.png");
-			break;
-			case "Main":
-				mon.img = ("main_" + mon.attribute.toLowerCase() + ".png");
-			break;
-			case "dark":
-			case "light":
-			case "wind":
-			case "water":
-			case "fire":
-				mon.img = ("main_" + mon.attribute.toLowerCase() + "_awakened.png");
+				mon.img = ("ifrit_" + mon.attribute.toLowerCase() + "_awakened.png");
 			break;
 			case "Main":
 				mon.img = ("main_" + mon.attribute.toLowerCase() + ".png");
