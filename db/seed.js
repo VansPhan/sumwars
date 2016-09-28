@@ -343,52 +343,51 @@ Monster.remove({}).then(function() {
 			case "Ifrit":
 				mon.img = ("ifrit_" + mon.attribute.toLowerCase() + ".png");
 			break;
-			case "dark":
-			case "light":
-			case "wind":
-			case "water":
-			case "fire":
+			case "Veromos":
+			case "Akhamamir":
+			case "Theomars":
+			case "Tesarion":
 				mon.img = ("ifrit_" + mon.attribute.toLowerCase() + "_awakened.png");
 			break;
-			case "Main":
-				mon.img = ("main_" + mon.attribute.toLowerCase() + ".png");
+			case "Imp Champion":
+				mon.img = ("imp_champion_" + mon.attribute.toLowerCase() + ".png");
 			break;
-			case "dark":
-			case "light":
-			case "wind":
-			case "water":
-			case "fire":
-				mon.img = ("main_" + mon.attribute.toLowerCase() + "_awakened.png");
+			case "Loque":
+			case "Shaffron":
+			case "Pigma":
+			case "Yaku":
+			case "Fairo":
+				mon.img = ("imp_champion_" + mon.attribute.toLowerCase() + "_awakened.png");
 			break;
-			case "Main":
-				mon.img = ("main_" + mon.attribute.toLowerCase() + ".png");
+			case "Imp":
+				mon.img = ("imp_" + mon.attribute.toLowerCase() + ".png");
 			break;
-			case "dark":
-			case "light":
-			case "wind":
-			case "water":
-			case "fire":
-				mon.img = ("main_" + mon.attribute.toLowerCase() + "_awakened.png");
+			case "Garok":
+			case "Taru":
+			case "Ralph":
+			case "Fynn":
+			case "Cogma":
+				mon.img = ("imp_" + mon.attribute.toLowerCase() + "_awakened.png");
 			break;
-			case "Main":
-				mon.img = ("main_" + mon.attribute.toLowerCase() + ".png");
+			case "Inferno":
+				mon.img = ("inferno_" + mon.attribute.toLowerCase() + ".png");
 			break;
-			case "dark":
-			case "light":
-			case "wind":
-			case "water":
-			case "fire":
-				mon.img = ("main_" + mon.attribute.toLowerCase() + "_awakened.png");
+			case "Drogan":
+			case "Eludain":
+			case "Anduril":
+			case "Purian":
+			case "Tagaros":
+				mon.img = ("inferno_" + mon.attribute.toLowerCase() + "_awakened.png");
 			break;
-			case "Main":
-				mon.img = ("main_" + mon.attribute.toLowerCase() + ".png");
+			case "Inugami":
+				mon.img = ("inugami_" + mon.attribute.toLowerCase() + ".png");
 			break;
-			case "dark":
-			case "light":
-			case "wind":
-			case "water":
-			case "fire":
-				mon.img = ("main_" + mon.attribute.toLowerCase() + "_awakened.png");
+			case "Kro":
+			case "Belladeon":
+			case "Ramahan":
+			case "Icaru":
+			case "Raoq":
+				mon.img = ("inugami_" + mon.attribute.toLowerCase() + "_awakened.png");
 			break;
 			case "Main":
 				mon.img = ("main_" + mon.attribute.toLowerCase() + ".png");
