@@ -399,6 +399,86 @@ Monster.remove({}).then(function() {
 			case "fire":
 				mon.img = ("main_" + mon.attribute.toLowerCase() + "_awakened.png");
 			break;
+			case "Main":
+				mon.img = ("main_" + mon.attribute.toLowerCase() + ".png");
+			break;
+			case "dark":
+			case "light":
+			case "wind":
+			case "water":
+			case "fire":
+				mon.img = ("main_" + mon.attribute.toLowerCase() + "_awakened.png");
+			break;
+			case "Main":
+				mon.img = ("main_" + mon.attribute.toLowerCase() + ".png");
+			break;
+			case "dark":
+			case "light":
+			case "wind":
+			case "water":
+			case "fire":
+				mon.img = ("main_" + mon.attribute.toLowerCase() + "_awakened.png");
+			break;
+			case "Main":
+				mon.img = ("main_" + mon.attribute.toLowerCase() + ".png");
+			break;
+			case "dark":
+			case "light":
+			case "wind":
+			case "water":
+			case "fire":
+				mon.img = ("main_" + mon.attribute.toLowerCase() + "_awakened.png");
+			break;
+			case "Main":
+				mon.img = ("main_" + mon.attribute.toLowerCase() + ".png");
+			break;
+			case "dark":
+			case "light":
+			case "wind":
+			case "water":
+			case "fire":
+				mon.img = ("main_" + mon.attribute.toLowerCase() + "_awakened.png");
+			break;
+			case "Main":
+				mon.img = ("main_" + mon.attribute.toLowerCase() + ".png");
+			break;
+			case "dark":
+			case "light":
+			case "wind":
+			case "water":
+			case "fire":
+				mon.img = ("main_" + mon.attribute.toLowerCase() + "_awakened.png");
+			break;
+			case "Main":
+				mon.img = ("main_" + mon.attribute.toLowerCase() + ".png");
+			break;
+			case "dark":
+			case "light":
+			case "wind":
+			case "water":
+			case "fire":
+				mon.img = ("main_" + mon.attribute.toLowerCase() + "_awakened.png");
+			break;
+			case "Main":
+				mon.img = ("main_" + mon.attribute.toLowerCase() + ".png");
+			break;
+			case "dark":
+			case "light":
+			case "wind":
+			case "water":
+			case "fire":
+				mon.img = ("main_" + mon.attribute.toLowerCase() + "_awakened.png");
+			break;
+			case "Main":
+				mon.img = ("main_" + mon.attribute.toLowerCase() + ".png");
+			break;
+			case "dark":
+			case "light":
+			case "wind":
+			case "water":
+			case "fire":
+				mon.img = ("main_" + mon.attribute.toLowerCase() + "_awakened.png");
+			break;
 			default: 
 			break;
 		}
